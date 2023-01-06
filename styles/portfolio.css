@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: #fd6e0a;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.container {
+  width: 114rem;
+  margin: 0 auto;
+}
+header {
+  background-color: #fff8f3;
+  padding: 5rem 20rem 0;
+  background-image: url("/images/header_bg.png"), url("/images/developer.png");
+  background-repeat: no-repeat;
+  background-position: right bottom, left bottom;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  font-weight: 800;
+  font-size: 4.5rem;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+header nav ul li {
+  margin-right: 5.1rem;
+}
+header nav ul li:last-child {
+  margin-right: 0;
+}
+
+header nav ul li button {
+  padding: 1.8rem 3.5rem;
+}
+header nav ul li a {
+  font-size: 2rem;
+  color: #474747;
+}
+
+/* banner style */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-subtitle {
+  font-size: 4.5rem;
+  font-weight: 600;
+  line-height: 6.1rem;
+  letter-spacing: 0em;
+  color: #474747;
+  margin-bottom: 0.5rem;
+}
+.banner-title {
+  color: #181818;
+  font-weight: 700;
+  font-size: 8.5rem;
+  margin-bottom: 2rem;
+}
+.banner-description {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: #757575;
+  margin-bottom: 3rem;
+}
+
+.download-cv {
+  padding: 1.8rem 1.7rem;
+}
+
+/* main section start */
+
+/* about section */
+
+.about {
+  margin-top: 13rem;
+  text-align: center;
+  padding: 13.1rem 15.7rem;
+  background: #fff8f3;
+  border-radius: 1rem;
+  margin-bottom: 13rem;
+}
+
+.about-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 3rem;
+}
+.about-description {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #757575;
+  margin-bottom: 3rem;
+  line-height: 3rem;
+}
+
+.personal-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.personal p:first-child {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #757575;
+}
+
+.personal p:last-child {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #474747;
+}
+
+/* profession-info start */
+
+.profession-info {
+  text-align: center;
+  margin-bottom: 13rem;
+}
+
+.profession-title-description {
+  padding: 0 15.7rem;
+  margin-bottom: 3rem;
+}
+.profession-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 3rem;
+}
+.profession-description {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #757575;
+  line-height: 3rem;
+  margin-bottom: 5rem;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.skill {
+  width: 26.7rem;
+  border-radius: 0.5rem;
+  padding: 3rem;
+  box-shadow: 0 0.6rem 5rem rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0 0.6rem 5rem rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0 0.6rem 5rem rgba(0, 0, 0, 0.06);
+}
+.skill img {
+  width: 4.4rem;
+  height: 4.4rem;
+  margin-bottom: 3rem;
+}
+.skill h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 3rem;
+}
+.skill p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #757575;
+  line-height: 2.8rem;
+}
+
+/* resume style start */
+
+.resume {
+  margin-bottom: 11.3rem;
+}
+
+.resume-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.resume > h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #181818;
+  margin-bottom: 11.3rem;
+}
+
+.education-info {
+  width: 55.8rem;
+}
+
+.resume-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 3rem;
+}
+
+.degree-or-desig-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 1rem;
+}
+.college-or-office {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 2rem;
+}
+
+.resume-description {
+  color: #757575;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  margin-bottom: 3rem;
+}
+
+.experience-info {
+  width: 55.8rem;
+}
+
+.resume hr {
+  margin-bottom: 3rem;
+  border: 0.1rem solid #d1d1d1;
+}
+
+.resume .cv {
+  text-align: center;
+}
+
+.resume .cv button {
+  height: 6.4rem;
+  width: 20rem;
+}
+
+/* contact info */
+
+.contact {
+  padding: 13rem 23rem 13rem;
+  display: flex;
+  justify-content: space-between;
+  background: #fff8f3;
+}
+
+.contact .contact-info {
+  width: 60%;
+}
+
+.contact .email-form {
+  width: 40%;
+}
+
+.contact .contact-info h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 2rem;
+}
+
+.contact .contact-info p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #474747;
+  width: 56.2rem;
+  line-height: 2.8rem;
+}
+
+.email-form h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 2.8rem;
+}
+
+.contact .email-form form .user-name,
+.user-email,
+textarea {
+  display: block;
+  margin-bottom: 2.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #181818;
+  outline: none;
+  border: none;
+}
+
+.contact .email-form form .user-name,
+.user-email {
+  padding: 1.8rem 3rem;
+  width: 46.1rem;
+  box-sizing: border-box;
+}
+
+.contact .email-form form textarea {
+  width: 46.1rem;
+  height: 18rem;
+  padding: 1.8rem 3rem;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.contact .email-form form .user-name::placeholder,
+.email::placeholder,
+textarea::placeholder {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #757575;
+}
+
+.contact .email-form form .submit {
+  padding: 1.8rem 3.9rem;
+}
+
+.social-links {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.social {
+  margin-right: 3rem;
+}
